@@ -1,0 +1,96 @@
+body {
+  background: #2B2B2B;
+  background-size: cover !important;
+}
+
+
+/*Логотип (ИСПОЛЬЗОВАНИЕ ИЗОБРАЖЕНИЯ ОБЯЗАТЕЛЬНО!)
+* Не забудьте изменить размеры блока подходящие под Ваш логотип
+*/
+#login h1 a {
+  display: block;
+  font-size: 0;
+  line-height: 0;
+  outline: none;
+  width: 125px;
+  height: 126px;
+  margin: 0 auto 67px auto;
+  background: url('../i/logo.svg') no-repeat 0 0;
+}
+
+/*
+*Блок формы
+*/
+#login form {
+  background: #494949;
+  padding: 36px 26px 30px 26px;
+  margin: 0 0 81px 0;
+  border: 0 none;
+  box-shadow: none;
+}
+
+/* Поля ввода
+* «Имя пользователя» и «Пароль»
+*/
+#login .input {
+  display: block;
+  width: 100%;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+  line-height: 1;
+  padding: 14px 16px 15px 16px;
+  margin: 0;
+  box-sizing: border-box;
+  outline: 0;
+  border: 0 none;
+  color: rgba(255,255,255,0.5);
+  background: rgba(163, 163, 163, 0.25);
+  box-shadow: none !important;
+  border-radius: 0;
+}
+
+/* Лейблы
+* Текст над полями
+*/
+#login label {
+  display: block;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #E5E5E5;
+  margin-bottom: 15px;
+}
+/*
+* Кнопка «Войти»
+*/
+#login input[type=submit] {
+  display: inline-block;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  height: 41px;
+  padding: 0 10px;
+  color: #000000;
+  font-weight: 700;
+  text-transform: uppercase;
+  box-sizing: border-box;
+  outline: 0;
+  cursor: pointer;
+  text-decoration: none;
+  text-align: center;
+  white-space: nowrap;
+  border: 0 none;
+  border-radius: 5px;
+  background: linear-gradient(90deg, #56FEBE 28.92%, #E9FF61 117.04%);
+}
+
+#login input[type=submit]:active {}
+
+/*Ссылки под формой
+* «Назад к блогу» и «Забыл пароль»
+*/
+#nav a,
+#backtoblog a {
+  color: Black !important;
+}
