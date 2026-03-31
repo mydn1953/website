@@ -1,5 +1,15 @@
-header { background: orange;}
-main {background: beage;}
-nav {background: lime;}
-aside {background: blue;}
-footer {background: pink;}
+header { background: orange; float: left;  width: 100%;}
+
+main {background: beage; float: left;  width: 40%;}
+
+nav {background: lime; float: left;  width: 30%;}
+
+aside {background: blue; float: left;  width: 30%;}
+
+footer {
+  background: pink;   
+  color: white;   
+  padding: 15px;
+  border: 1px solid black;
+  text-align: center;
+}
